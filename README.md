@@ -1,1 +1,1 @@
-# speec-to-text
+# speech-to-text
