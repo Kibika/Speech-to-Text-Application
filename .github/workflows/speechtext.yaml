@@ -12,11 +12,11 @@ jobs:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           pip install -r requirements.txt
-          python speech_to_text.py
+          python train_model.ipynb
           echo "## Model metrics" > report.md
           cat metrics.txt >> report.md
           echo "## Data viz" >> report.md
-          cml-publish model_loss.png --md >> report.md
-          cml-publish actualvspred.png --md >> report.md
-          cml-send-comment report.md
+          cml-publish model_1.png --md >> report.md
+          
+          
 
