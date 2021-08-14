@@ -1,0 +1,8 @@
+{
+  "flask": {
+    "image": ":flask-service.speech-to-text.X",
+    "ports": {
+      "5000": "HTTP"
+    }
+  }
+}
