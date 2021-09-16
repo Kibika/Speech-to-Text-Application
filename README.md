@@ -12,4 +12,5 @@ Several models are used, the word error rate(wer) is calculated and the bidircti
 
 # Credits
 https://github.com/energyfirefox/DNNSpeechRecognizerAIND
+
 https://github.com/udacity/AIND-VUI-Capstone
