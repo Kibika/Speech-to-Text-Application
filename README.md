@@ -9,3 +9,7 @@ The text is converted to numbers using the characters in char_map.py
 
 # Modelling
 Several models are used, the word error rate(wer) is calculated and the bidirctional LSTM is chosen as the best model for prediction. The bidirectional LSTM model is also chosen because of its ability to use past data, future data and information obtained from past data to train the network. Speech and text are a form of sequential data.
+
+# Credits
+https://github.com/energyfirefox/DNNSpeechRecognizerAIND
+https://github.com/udacity/AIND-VUI-Capstone
